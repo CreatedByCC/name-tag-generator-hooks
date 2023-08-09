@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/name-tag-generator-hooks/static/css/main.0fb00a8c.css",
+    "main.js": "/name-tag-generator-hooks/static/js/main.c616b13f.js",
+    "index.html": "/name-tag-generator-hooks/index.html",
+    "main.0fb00a8c.css.map": "/name-tag-generator-hooks/static/css/main.0fb00a8c.css.map",
+    "main.c616b13f.js.map": "/name-tag-generator-hooks/static/js/main.c616b13f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fb00a8c.css",
+    "static/js/main.c616b13f.js"
+  ]
+}
