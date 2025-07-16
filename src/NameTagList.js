@@ -12,9 +12,15 @@ const NameTagList = (props) => {
     />
   );
 
-  const NameTagElements = props.names.map(renderNameTag);
+  const NameTagElements = Array.isArray(props.names)
+  ? props.names.map(renderNameTag)
+  : null;
 
-  return <main>{NameTagElements}</main>;
+  return (
+    <main>
+      {NameTagElements?.length > 0 ? NameTagElements : <p>No name tags yet!</p>}
+    </main>
+  );
 };
 
 export default NameTagList;
